@@ -1,8 +1,14 @@
+/* ------Header design------ */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
 .nav-title{
     font-size: 45px;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
 }
 .mary{
     color: #FD6E0A;;
@@ -32,4 +38,68 @@ li{
     font-size: 24px;
     font-weight: 700;
     border-radius: 10px;
+}
+/* -------banner design------ */
+.banner{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+}
+.block{
+    display: block;
+}
+.banner-subtitle{
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.description{
+    color:  #757575;
+    font-size: 18px;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+/* --------About me-------- */
+main{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.about{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+.section-title{
+    font-size: 65px;
+}
+.section-description{
+    color: #757575;
+    margin-top: 30px;
+    font-size: 18px;
+}
+/* --contact info under About Me-- */
+.about-info-container{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    /* font-size: 20px; */
+}
+.contact-info{
+    color: #474747;
+    /* font-size: 20px; */
+    font-weight: 700;
 }

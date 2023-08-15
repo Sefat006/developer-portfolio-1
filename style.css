@@ -82,6 +82,7 @@ main{
 }
 .section-title{
     font-size: 65px;
+    /* align-items: center; */
 }
 .section-description{
     color: #757575;
@@ -133,4 +134,39 @@ main{
 }
 .skill-description{
     color: #757575;
+}
+
+/* ---A summary of my resume--- */
+.a-summary-of-my-resume{
+    align-items: center;
+    padding: 30px 50px;
+    margin-bottom: 85px;
+}
+.a-summary-of-my-resume header{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 85px;
+}
+.my-education, .my-experience{
+    margin-bottom: 85px;
+}
+.resume-sub{
+    margin-top: 50px;
+}
+.resume-place{
+    color: #757575;
+}
+.resume-description{
+    color: #757575;
+}
+.resume-button{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-left: 400px;
 }

@@ -39,7 +39,11 @@ li{
     font-weight: 700;
     border-radius: 10px;
 }
+
+
 /* -------banner design------ */
+
+
 .banner{
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -68,7 +72,11 @@ li{
     font-size: 24px;
     border-radius: 5px;
 }
+
+
 /* --------About me-------- */
+
+
 main{
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
@@ -89,7 +97,10 @@ main{
     margin-top: 30px;
     font-size: 18px;
 }
+
+
 /* --contact info under About Me-- */
+
 .about-info-container{
     display: flex;
     font-size: 20px;
@@ -104,7 +115,10 @@ main{
     /* font-size: 20px; */
     font-weight: 700;
 }
+
+
 /* ---what i do section--- */
+
 .what-i-do{
     text-align: center;
     margin-top: 130px;
@@ -136,7 +150,9 @@ main{
     color: #757575;
 }
 
+
 /* ---A summary of my resume--- */
+
 .a-summary-of-my-resume{
     align-items: center;
     padding: 30px 50px;
@@ -169,4 +185,38 @@ main{
     font-size: 24px;
     border-radius: 5px;
     margin-left: 400px;
+}
+
+/* ----contact info section---- */
+
+.contact{
+    background: #FFF8F3;
+    text-align: center;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.lets-contact{
+    margin-right: 50px;
+}
+.lets-contact p{
+    margin-top: 50px;
+}
+.icon{
+    margin-top: 50px;
+}
+.messege{
+    margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    gap: 100px;
+}
+.lets-messege-me{
+    margin-bottom: 20px;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    height: 64px;
 }
